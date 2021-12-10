@@ -26,7 +26,7 @@ public class NetworkXRGrab : NetworkBehaviour
 	/* Setup */
 	void Awake()
 	{
-        rb = GetComponent<Rigidbody>();
+		rb = GetComponent<Rigidbody>();
 		xr = GetComponent<XRBaseInteractable>();
 
 		originalLayerMask = xr.interactionLayerMask.value;
