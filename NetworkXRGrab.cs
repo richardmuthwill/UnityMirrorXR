@@ -34,7 +34,7 @@ public class NetworkXRGrab : NetworkBehaviour
 		grabbable = grabbableOnStart;
 	}
 
-    void Start ()
+	void Start ()
 	{
 		SetGrabbable(grabbable);
 
